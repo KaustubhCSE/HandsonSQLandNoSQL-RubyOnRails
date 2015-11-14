@@ -7,8 +7,8 @@ gem 'rails', '4.2.3'
 # gem 'sqlite3'
 # Use Postgres
 gem 'pg'
-# Use SCSS for stylesheets
-
+# Use for Redis
+gem 'redis'
 # Use for mongo
 gem 'mongo'
 gem 'bson_ext'
