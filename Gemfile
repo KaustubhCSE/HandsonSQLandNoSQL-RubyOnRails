@@ -10,15 +10,15 @@ gem 'pg'
 # Use for Redis
 gem 'redis'
 # Use for mongo
-# gem 'mongo', '1.8.0'
+gem 'mongo'
 
-gem "mongoid", "~>4.0.0"
+# gem "mongoid", "~>4.0.0"
 
-gem "moped", "~>2.0.0"
+# gem "moped", "~>2.0.0"
 
-# gem "bson", "~> 1.12.4" 
+gem "bson"
 
-# gem 'bson_ext'
+gem 'bson_ext'
 
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
