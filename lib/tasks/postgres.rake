@@ -10,8 +10,8 @@ begin
   host = db_parts[5]
   db = db_parts[7]
   con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
-
-    con.exec "CREATE TABLE Cars(Id INTEGER PRIMARY KEY, Name VARCHAR(20), Price INT)"
+  	# con = PG.connect
+    con.exec "CREATE TABLE IF NOT EXISTS Cars(Id INTEGER PRIMARY KEY, Name VARCHAR(20), Price INT)"
     con.exec "INSERT INTO Cars VALUES(1,'Audi',52642)"
     con.exec "INSERT INTO Cars VALUES(2,'Mercedes',57127)"
 
