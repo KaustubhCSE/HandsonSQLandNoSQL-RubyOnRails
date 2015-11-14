@@ -1,3 +1,6 @@
+# References: http://stackoverflow.com/questions/11380438/cant-connect-to-postgresql-database-on-heroku-using-ruby-could-not-translate
+
+
 task :pgcreate
 
 require 'pg'
