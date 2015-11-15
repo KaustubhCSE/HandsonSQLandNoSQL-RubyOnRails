@@ -1,9 +1,10 @@
-# References: http://stackoverflow.com/questions/11380438/cant-connect-to-postgresql-database-on-heroku-using-ruby-could-not-translate
+# 	References: http://stackoverflow.com/questions/11380438/cant-connect-to-postgresql-database-on-heroku-using-ruby-could-not-translate
 
 
 task :pgcreate
 
 require 'pg'
+require 'json'
 
 begin
 
@@ -15,6 +16,9 @@ begin
   con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
   	# con = PG.connect
     con.exec "CREATE TABLE IF NOT EXISTS Cars(Id INTEGER PRIMARY KEY, Name VARCHAR(20), Price INT)"
+
+
+
     con.exec "INSERT INTO Cars VALUES(1,'Audi',52642)"
     con.exec "INSERT INTO Cars VALUES(2,'Mercedes',57127)"
 

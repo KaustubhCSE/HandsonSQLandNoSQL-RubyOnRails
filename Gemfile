@@ -8,7 +8,7 @@ gem 'rails', '4.2.3'
 # Use Postgres
 gem 'pg'
 # Use for Redis
-gem 'redis'
+gem 'redis', '~>3.2'
 # Use for mongo
 gem 'mongo'
 
