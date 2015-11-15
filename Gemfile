@@ -12,6 +12,9 @@ gem 'redis'
 # Use for mongo
 gem 'mongo'
 
+# Use for JSON
+
+gem 'json'
 # gem "mongoid", "~>4.0.0"
 
 # gem "moped", "~>2.0.0"
