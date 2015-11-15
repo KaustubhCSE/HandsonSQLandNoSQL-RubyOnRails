@@ -5,13 +5,13 @@
 require 'pg'
 require 'json'
 
-  # db_parts = ENV['DATABASE_URL'].split(/\/|:|@/)
-  # username = db_parts[3]
-  # password = db_parts[4]
-  # host = db_parts[5]
-  # db = db_parts[7]
-  # con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
-  	con = PG.connect
+  db_parts = ENV['DATABASE_URL'].split(/\/|:|@/)
+  username = db_parts[3]
+  password = db_parts[4]
+  host = db_parts[5]
+  db = db_parts[7]
+  con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
+  	# con = PG.connect
     con.exec "CREATE TABLE IF NOT EXISTS fathers(Id INTEGER PRIMARY KEY, Married VARCHAR(20), Name VARCHAR(20), Son VARCHAR(20), Daughter VARCHAR(20))"
 
     file = File.read("sample1.json")
