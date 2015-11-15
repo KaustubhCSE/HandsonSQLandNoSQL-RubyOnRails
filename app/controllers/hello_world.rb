@@ -6,9 +6,9 @@ require 'json'
 require 'mongo'
 include Mongo
 
-puts Gem.loaded_specs["mongo"].version
+# puts Gem.loaded_specs["mongo"].version
 mongo_uri = ENV['MONGOLAB_URI']
-client = Mongo::Client.new([mongo_uri],:database => 'test');
+client = Mongo::Client.new([mongo_uri],:database => 'heroku_c0c04lxx');
 # client = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
 db = client.database
 db.test.each{|name| puts name }
