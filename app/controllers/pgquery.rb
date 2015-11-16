@@ -9,8 +9,8 @@ require 'json'
   con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
 
 
-	stm = con.prepare "SELECT * FROM fathers WHERE fathers.Id = 99" 
-	rs = stm.execute 
+	rs = con.exec "SELECT * FROM fathers WHERE fathers.Id = 99" 
+	# rs = stm.execute 
     
 	rs.each do |row|
     	puts row.join "\s"
