@@ -17,25 +17,35 @@ include Mongo
 # puts res.class
 
 # Create a new collection fathers.
-client = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
+db = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
 
 
 
-file = open("sample.json")
-json = file.read
-documents = JSON.parse(json)
+# file = open("sample1.json")
+# json = file.read
+# documents = JSON.parse(json)
 
+
+ # file = File.read("sample1.json")
+ #  data_hash = JSON.parse(file)
+
+ #    for data in data_hash['fathers']
+
+ #    	db[:test].insert_one({ID: data['id'], Married: data['married'], Name: data['name'], Son: data['son'], Daughter: data['daughter'] })
+
+ #  	end
+
+ db[:test].find(:Married => 'true').each {|document| puts document }
 # data.each do |data|
-documents.each do |document|
-	client[:fathers].insert_one(document)
-# 	result = client[:fathers].insert_one(data)
+# documents.each do |document|
+# 	client[:fathers].insert_one(document.to_s)
+# # 	result = client[:fathers].insert_one(data)
 
 
 
 # documents = client[:fathers].find()
 # documents.each do |document|
 # 	puts document
-end
 
 
 # file = open("sample.json")
