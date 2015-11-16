@@ -24,7 +24,7 @@ require 'json'
       c = data['name']
       d = data['son']
       e = data['daughter']
-      res = con.exec_params('INSERT INTO fathers VALUES ($a, $b, $c, $d, $e)', [a, b, c, d, e])    
+      res = con.exec_params("INSERT INTO fathers VALUES ($a, $b, $c, $d, $e)", [a, b, c, d, e])     
       # insert = con.prepare "INSERT INTO fathers (Id, Married, Name, Son, Daughter) VALUES(?,?,?,?,?"
       # insert.execute (data['id'], data['married'], data['name'], data['son'], data['daughter'])
     end
