@@ -9,7 +9,7 @@ require 'json'
   con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
 
 
-	stm = db.prepare "SELECT * FROM fathers WHERE Movie.Id = 99" 
+	stm = con.prepare "SELECT * FROM fathers WHERE fathers.Id = 99" 
 	rs = stm.execute 
     
 	rs.each do |row|
