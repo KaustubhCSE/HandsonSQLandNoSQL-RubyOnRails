@@ -12,27 +12,23 @@ require 'json'
   db = db_parts[7]
   con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
   	# con = PG.connect
-    con.exec "CREATE TABLE IF NOT EXISTS fathers(Id INTEGER PRIMARY KEY, Married VARCHAR(20), Name VARCHAR(20), Son VARCHAR(20), Daughter VARCHAR(20))"
-
-    file = File.read("sample1.json")
-    data_hash = JSON.parse(file)
+  con.exec "CREATE TABLE IF NOT EXISTS fathers(Id INTEGER PRIMARY KEY, Married VARCHAR(20), Name VARCHAR(60), Son VARCHAR(60), Daughter VARCHAR(60))"
+  quotes="'"
+  file = File.read("sample.json")
+  data_hash = JSON.parse(file)
 
     for data in data_hash['fathers']
-    # data_hash['fathers'].each do |id|
+
       a = data['id']
-      b = data['married']
-      c = data['name']
-      d = data['son']
-      e = data['daughter']
-      res = con.exec_params("INSERT INTO fathers VALUES ($a, $b, $c, $d, $e)", [a, b, c, d, e])     
-      # insert = con.prepare "INSERT INTO fathers (Id, Married, Name, Son, Daughter) VALUES(?,?,?,?,?"
-      # insert.execute (data['id'], data['married'], data['name'], data['son'], data['daughter'])
+      b = quotes + data['married'].to_s + quotes
+      c = quotes + data['name'].to_s + quotes
+      d = quotes + data['son'].to_s + quotes
+      e = quotes + data['daughter'].to_s + quotes
+      con.exec("INSERT INTO fathers(Id, Married, Name, Son, Daughter) VALUES (#{a}, #{b}, #{c}, #{d}, #{e})")
+
     end
 
-    
-    # con.exec "INSERT INTO Cars VALUES(2,'Mercedes',57127)"
+    puts "Data Inserted!"
 
-    # rs = con.exec "SELECT * FROM Cars"
 
-    # rs.each do |row|
-    #   puts "%s %s %s" % [ row['id'], row['name'], row['price'] ]
+   
