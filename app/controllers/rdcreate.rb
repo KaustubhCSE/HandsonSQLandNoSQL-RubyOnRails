@@ -1,18 +1,21 @@
 require "redis"
+require "json"
+require 'open-uri'
+# redis = Redis.new(url: ENV["REDIS_URL"])
 
-redis = Redis.new(url: ENV["REDIS_URL"])
+redis = Redis.new
 
-# redis = Redis.new(:host => "10.0.1.1", :port => 6380, :db => 15)
-
-file = File.read("sample1.json")
-  data_hash = JSON.parse(file)
+data_hash = JSON.parse(open("http://json-generator.appspot.com/api/json/get/bVSYVXYLCa?indent=2").read)
 
   for data in data_hash['fathers']
+	
+	redis.set data['id'], [data['married'], data['name'], data['son'], data['daughter']].to_json
 
-    hmsetbyjson({ID: data['id'], Married: data['married'], Name: data['name'], Son: data['son'], Daughter: data['daughter'] })
-      
   end
 
-# redis.set('foo', 'bar');
-# value = redis.get('foo');
+puts "Data inserted!"
+
+# redis.set "foo", [1, 2, 3].to_json
+# value = JSON.parse(redis.get(2))
+# value  = redis.get(2)
 # puts value

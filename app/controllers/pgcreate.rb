@@ -4,18 +4,21 @@
 
 require 'pg'
 require 'json'
+require 'open-uri'
 
-  db_parts = ENV['DATABASE_URL'].split(/\/|:|@/)
-  username = db_parts[3]
-  password = db_parts[4]
-  host = db_parts[5]
-  db = db_parts[7]
-  con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
-  	# con = PG.connect
+  # db_parts = ENV['DATABASE_URL'].split(/\/|:|@/)
+  # username = db_parts[3]
+  # password = db_parts[4]
+  # host = db_parts[5]
+  # db = db_parts[7]
+  # con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
+  con = PG.connect
   con.exec "CREATE TABLE IF NOT EXISTS fathers(Id INTEGER PRIMARY KEY, Married VARCHAR(20), Name VARCHAR(60), Son VARCHAR(60), Daughter VARCHAR(60))"
   quotes="'"
-  file = File.read("sample.json")
-  data_hash = JSON.parse(file)
+  # file = File.read("sample.json")
+  # data_hash = JSON.parse(file)
+
+  data_hash = JSON.parse(open("http://json-generator.appspot.com/api/json/get/bVSYVXYLCa?indent=2").read)
 
     for data in data_hash['fathers']
 

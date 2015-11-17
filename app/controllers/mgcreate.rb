@@ -7,21 +7,17 @@
 require 'rubygems'
 require 'json'
 require 'mongo'
+require 'open-uri'
 include Mongo
 
 # puts Gem.loaded_specs["mongo"].version
-db = Mongo::Client.new(['ds037990.mongolab.com:37990'],:database => 'heroku_c0c04lxx',:user => 'admin', :password => 'admin')
-# db = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
+# db = Mongo::Client.new(['ds037990.mongolab.com:37990'],:database => 'heroku_c0c04lxx',:user => 'admin', :password => 'admin')
+db = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
 
 # Create a new collection fathers.
 coll = db["fathers"]
 
-file = open("sample.json")
-json = file.read
-documents = JSON.parse(json)
-
- file = File.read("sample.json")
-  data_hash = JSON.parse(file)
+data_hash = JSON.parse(open("http://json-generator.appspot.com/api/json/get/bVSYVXYLCa?indent=2").read)
 
     for data in data_hash['fathers']
 
