@@ -1,9 +1,9 @@
 require "redis"
 require "json"
 require 'open-uri'
-# redis = Redis.new(url: ENV["REDIS_URL"])
+redis = Redis.new(url: ENV["REDIS_URL"])
 
-redis = Redis.new
+# redis = Redis.new
 
 data_hash = JSON.parse(open("http://json-generator.appspot.com/api/json/get/bVSYVXYLCa?indent=2").read)
 
