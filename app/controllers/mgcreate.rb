@@ -8,7 +8,7 @@ include Mongo
 
 # puts Gem.loaded_specs["mongo"].version
 mongo_uri = ENV['MONGOLAB_URI']
-client = Mongo::Client.new(['ds037990.mongolab.com:37990'],:database => 'heroku_c0c04lxx',:user => 'admin', :password => 'admin');
+db = Mongo::Client.new(['ds037990.mongolab.com:37990'],:database => 'heroku_c0c04lxx',:user => 'admin', :password => 'admin');
 # client = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
 # db = client.database
 # db.fathers.each{|name| puts name }
