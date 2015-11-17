@@ -2,714 +2,714 @@
   "fathers" : [ 
     { 
       "id" : 1,
-      "married" : true,
+      "married" : "true",
       "name" : "Charles Young",
       "son" : "Anthony Jackson",
       "daughter" : "Karen Garcia"
       },
     { 
       "id" : 2,
-      "married" : true,
+      "married" : "true",
       "name" : "Jeffrey Moore",
       "son" : "Kenneth Williams",
       "daughter" : "Patricia Rodriguez"
       },
     { 
       "id" : 3,
-      "married" : true,
+      "married" : "true",
       "name" : "Donald Gonzalez",
       "son" : "Larry Miller",
       "daughter" : "Michelle Thompson"
       },
     { 
       "id" : 4,
-      "married" : false,
+      "married" : "false",
       "name" : "Larry Jones",
       "son" : "Kenneth Harris",
       "daughter" : "Ruth Johnson"
       },
     { 
       "id" : 5,
-      "married" : true,
+      "married" : "true",
       "name" : "Daniel Perez",
       "son" : "Steven Gonzalez",
       "daughter" : "Sandra Robinson"
       },
     { 
       "id" : 6,
-      "married" : false,
+      "married" : "false",
       "name" : "Jose Lewis",
       "son" : "Gary Harris",
       "daughter" : "Mary Johnson"
       },
     { 
       "id" : 7,
-      "married" : true,
+      "married" : "true",
       "name" : "Jeffrey Thompson",
       "son" : "Joseph Robinson",
       "daughter" : "Dorothy White"
       },
     { 
       "id" : 8,
-      "married" : true,
+      "married" : "true",
       "name" : "Brian Hernandez",
       "son" : "Richard White",
       "daughter" : "Carol Martin"
       },
     { 
       "id" : 9,
-      "married" : true,
+      "married" : "true",
       "name" : "Joseph Perez",
       "son" : "James Jones",
       "daughter" : "Susan Robinson"
       },
     { 
       "id" : 10,
-      "married" : false,
+      "married" : "false",
       "name" : "Daniel Hall",
       "son" : "Larry Gonzalez",
       "daughter" : "Sarah Robinson"
       },
     { 
       "id" : 11,
-      "married" : true,
+      "married" : "true",
       "name" : "Paul Davis",
       "son" : "Gary Thomas",
       "daughter" : "Sarah Moore"
       },
     { 
       "id" : 12,
-      "married" : false,
+      "married" : "false",
       "name" : "Ronald Johnson",
       "son" : "Timothy Anderson",
       "daughter" : "Donna Perez"
       },
     { 
       "id" : 13,
-      "married" : false,
+      "married" : "false",
       "name" : "Jeffrey Harris",
       "son" : "Thomas Moore",
       "daughter" : "Jennifer Martinez"
       },
     { 
       "id" : 14,
-      "married" : true,
+      "married" : "true",
       "name" : "Eric Allen",
       "son" : "Daniel White",
       "daughter" : "Linda Allen"
       },
     { 
       "id" : 15,
-      "married" : true,
+      "married" : "true",
       "name" : "Charles Jackson",
       "son" : "Timothy Davis",
       "daughter" : "Donna Miller"
       },
     { 
       "id" : 16,
-      "married" : true,
+      "married" : "true",
       "name" : "John Clark",
       "son" : "Scott Wilson",
       "daughter" : "Laura Martinez"
       },
     { 
       "id" : 17,
-      "married" : true,
+      "married" : "true",
       "name" : "Paul Harris",
       "son" : "Frank White",
       "daughter" : "Dorothy Brown"
       },
     { 
       "id" : 18,
-      "married" : true,
+      "married" : "true",
       "name" : "George Perez",
       "son" : "Donald Taylor",
       "daughter" : "Dorothy Thomas"
       },
     { 
       "id" : 19,
-      "married" : false,
+      "married" : "false",
       "name" : "Frank Walker",
       "son" : "Kevin Brown",
       "daughter" : "Margaret Smith"
       },
     { 
       "id" : 20,
-      "married" : true,
+      "married" : "true",
       "name" : "Gary Miller",
       "son" : "Eric Jones",
       "daughter" : "Anna Lewis"
       },
     { 
       "id" : 21,
-      "married" : false,
+      "married" : "false",
       "name" : "George Jones",
       "son" : "Brian Lee",
       "daughter" : "Shirley Garcia"
       },
     { 
       "id" : 22,
-      "married" : false,
+      "married" : "false",
       "name" : "Joseph Miller",
       "son" : "Ronald Jones",
       "daughter" : "Amy Williams"
       },
     { 
       "id" : 23,
-      "married" : false,
+      "married" : "false",
       "name" : "Mark Miller",
       "son" : "Robert Taylor",
       "daughter" : "Angela Miller"
       },
     { 
       "id" : 24,
-      "married" : false,
+      "married" : "false",
       "name" : "Thomas Garcia",
       "son" : "Richard Martin",
       "daughter" : "Karen Miller"
       },
     { 
       "id" : 25,
-      "married" : false,
+      "married" : "false",
       "name" : "Kevin Robinson",
       "son" : "Christopher Gonzalez",
       "daughter" : "Linda Wilson"
       },
     { 
       "id" : 26,
-      "married" : true,
+      "married" : "true",
       "name" : "George Perez",
       "son" : "Charles Lee",
       "daughter" : "Maria Martinez"
       },
     { 
       "id" : 27,
-      "married" : true,
+      "married" : "true",
       "name" : "Daniel Lee",
       "son" : "Donald Thomas",
       "daughter" : "Kimberly Martinez"
       },
     { 
       "id" : 28,
-      "married" : true,
+      "married" : "true",
       "name" : "Steven Rodriguez",
       "son" : "Mark Lewis",
       "daughter" : "Barbara Hernandez"
       },
     { 
       "id" : 29,
-      "married" : true,
+      "married" : "true",
       "name" : "Brian Harris",
       "son" : "James Lopez",
       "daughter" : "Donna Thomas"
       },
     { 
       "id" : 30,
-      "married" : true,
+      "married" : "true",
       "name" : "Mark Harris",
       "son" : "Joseph Smith",
       "daughter" : "Shirley Anderson"
       },
     { 
       "id" : 31,
-      "married" : false,
+      "married" : "false",
       "name" : "Steven Rodriguez",
       "son" : "Daniel Lopez",
       "daughter" : "Carol Davis"
       },
     { 
       "id" : 32,
-      "married" : true,
+      "married" : "true",
       "name" : "Eric Wilson",
       "son" : "David Martin",
       "daughter" : "Susan Robinson"
       },
     { 
       "id" : 33,
-      "married" : true,
+      "married" : "true",
       "name" : "Christopher Gonzalez",
       "son" : "Paul Johnson",
       "daughter" : "Barbara White"
       },
     { 
       "id" : 34,
-      "married" : true,
+      "married" : "true",
       "name" : "Richard Moore",
       "son" : "Frank Jones",
       "daughter" : "Sarah Jones"
       },
     { 
       "id" : 35,
-      "married" : false,
+      "married" : "false",
       "name" : "John Gonzalez",
       "son" : "Joseph Brown",
       "daughter" : "Laura Robinson"
       },
     { 
       "id" : 36,
-      "married" : false,
+      "married" : "false",
       "name" : "Christopher Taylor",
       "son" : "David Young",
       "daughter" : "Cynthia Moore"
       },
     { 
       "id" : 37,
-      "married" : false,
+      "married" : "false",
       "name" : "Kevin Thompson",
       "son" : "Richard Harris",
       "daughter" : "Susan Rodriguez"
       },
     { 
       "id" : 38,
-      "married" : true,
+      "married" : "true",
       "name" : "Ronald Lopez",
       "son" : "David Johnson",
       "daughter" : "Anna Hall"
       },
     { 
       "id" : 39,
-      "married" : true,
+      "married" : "true",
       "name" : "Jason Martinez",
       "son" : "Ronald Lopez",
       "daughter" : "Deborah Johnson"
       },
     { 
       "id" : 40,
-      "married" : false,
+      "married" : "false",
       "name" : "John Harris",
       "son" : "Paul Young",
       "daughter" : "Michelle Taylor"
       },
     { 
       "id" : 41,
-      "married" : true,
+      "married" : "true",
       "name" : "William Moore",
       "son" : "Daniel Smith",
       "daughter" : "Laura Martinez"
       },
     { 
       "id" : 42,
-      "married" : false,
+      "married" : "false",
       "name" : "Matthew Young",
       "son" : "Jeffrey Smith",
       "daughter" : "Mary Allen"
       },
     { 
       "id" : 43,
-      "married" : true,
+      "married" : "true",
       "name" : "Ronald Perez",
       "son" : "Donald Hall",
       "daughter" : "Laura Perez"
       },
     { 
       "id" : 44,
-      "married" : false,
+      "married" : "false",
       "name" : "Jeffrey Harris",
       "son" : "Charles Gonzalez",
       "daughter" : "Anna Hernandez"
       },
     { 
       "id" : 45,
-      "married" : false,
+      "married" : "false",
       "name" : "Christopher Garcia",
       "son" : "Edward Jackson",
       "daughter" : "Amy Moore"
       },
     { 
       "id" : 46,
-      "married" : true,
+      "married" : "true",
       "name" : "Brian Jones",
       "son" : "Paul Walker",
       "daughter" : "Karen Martinez"
       },
     { 
       "id" : 47,
-      "married" : false,
+      "married" : "false",
       "name" : "Daniel Lopez",
       "son" : "Donald Moore",
       "daughter" : "Betty Anderson"
       },
     { 
       "id" : 48,
-      "married" : true,
+      "married" : "true",
       "name" : "Kenneth Taylor",
       "son" : "Matthew Brown",
       "daughter" : "Kimberly Taylor"
       },
     { 
       "id" : 49,
-      "married" : true,
+      "married" : "true",
       "name" : "Anthony Davis",
       "son" : "Brian Taylor",
       "daughter" : "Linda Lopez"
       },
     { 
       "id" : 50,
-      "married" : true,
+      "married" : "true",
       "name" : "Larry Jones",
       "son" : "Jeffrey Hernandez",
       "daughter" : "Mary Jackson"
       },
     { 
       "id" : 51,
-      "married" : false,
+      "married" : "false",
       "name" : "William Jackson",
       "son" : "Frank Anderson",
       "daughter" : "Amy Johnson"
       },
     { 
       "id" : 52,
-      "married" : false,
+      "married" : "false",
       "name" : "John Hernandez",
       "son" : "Michael Jones",
       "daughter" : "Deborah Williams"
       },
     { 
       "id" : 53,
-      "married" : false,
+      "married" : "false",
       "name" : "Kenneth Williams",
       "son" : "George Perez",
       "daughter" : "Laura Martinez"
       },
     { 
       "id" : 54,
-      "married" : false,
+      "married" : "false",
       "name" : "Robert Wilson",
       "son" : "James Hall",
       "daughter" : "Michelle Jones"
       },
     { 
       "id" : 55,
-      "married" : true,
+      "married" : "true",
       "name" : "John Brown",
       "son" : "Jason Walker",
       "daughter" : "Barbara Jones"
       },
     { 
       "id" : 56,
-      "married" : true,
+      "married" : "true",
       "name" : "Robert Thomas",
       "son" : "Kenneth White",
       "daughter" : "Shirley Anderson"
       },
     { 
       "id" : 57,
-      "married" : false,
+      "married" : "false",
       "name" : "Christopher Allen",
       "son" : "Jose Lewis",
       "daughter" : "Kimberly Thompson"
       },
     { 
       "id" : 58,
-      "married" : true,
+      "married" : "true",
       "name" : "Brian Rodriguez",
       "son" : "Thomas Rodriguez",
       "daughter" : "Maria Jackson"
       },
     { 
       "id" : 59,
-      "married" : false,
+      "married" : "false",
       "name" : "Richard Young",
       "son" : "Larry Lopez",
       "daughter" : "Brenda White"
       },
     { 
       "id" : 60,
-      "married" : true,
+      "married" : "true",
       "name" : "Matthew Harris",
       "son" : "Richard Harris",
       "daughter" : "Betty Lee"
       },
     { 
       "id" : 61,
-      "married" : false,
+      "married" : "false",
       "name" : "Edward Perez",
       "son" : "Thomas Rodriguez",
       "daughter" : "Kimberly Davis"
       },
     { 
       "id" : 62,
-      "married" : false,
+      "married" : "false",
       "name" : "Anthony Robinson",
       "son" : "Matthew Hall",
       "daughter" : "Angela Miller"
       },
     { 
       "id" : 63,
-      "married" : true,
+      "married" : "true",
       "name" : "Joseph Jones",
       "son" : "David Gonzalez",
       "daughter" : "Kimberly Wilson"
       },
     { 
       "id" : 64,
-      "married" : false,
+      "married" : "false",
       "name" : "Christopher Perez",
       "son" : "Ronald Thomas",
       "daughter" : "Susan Jackson"
       },
     { 
       "id" : 65,
-      "married" : true,
+      "married" : "true",
       "name" : "Scott Robinson",
       "son" : "Jeffrey Anderson",
       "daughter" : "Mary Moore"
       },
     { 
       "id" : 66,
-      "married" : true,
+      "married" : "true",
       "name" : "Matthew Smith",
       "son" : "Eric Brown",
       "daughter" : "Angela Garcia"
       },
     { 
       "id" : 67,
-      "married" : false,
+      "married" : "false",
       "name" : "Brian Lopez",
       "son" : "Anthony Williams",
       "daughter" : "Laura Gonzalez"
       },
     { 
       "id" : 68,
-      "married" : true,
+      "married" : "true",
       "name" : "Robert Allen",
       "son" : "Kenneth Miller",
       "daughter" : "Sharon Martinez"
       },
     { 
       "id" : 69,
-      "married" : false,
+      "married" : "false",
       "name" : "Joseph White",
       "son" : "Joseph Walker",
       "daughter" : "Donna Young"
       },
     { 
       "id" : 70,
-      "married" : true,
+      "married" : "true",
       "name" : "Paul Garcia",
       "son" : "John Thomas",
       "daughter" : "Helen Harris"
       },
     { 
       "id" : 71,
-      "married" : false,
+      "married" : "false",
       "name" : "Paul Perez",
       "son" : "Kevin Thompson",
       "daughter" : "Jennifer Young"
       },
     { 
       "id" : 72,
-      "married" : true,
+      "married" : "true",
       "name" : "Timothy Garcia",
       "son" : "Matthew Martin",
       "daughter" : "Donna Lopez"
       },
     { 
       "id" : 73,
-      "married" : true,
+      "married" : "true",
       "name" : "Gary Lewis",
       "son" : "Donald Taylor",
       "daughter" : "Sandra Martinez"
       },
     { 
       "id" : 74,
-      "married" : false,
+      "married" : "false",
       "name" : "James Robinson",
       "son" : "Steven Williams",
       "daughter" : "Sandra Robinson"
       },
     { 
       "id" : 75,
-      "married" : true,
+      "married" : "true",
       "name" : "Gary Robinson",
       "son" : "Christopher Hernandez",
       "daughter" : "Donna Gonzalez"
       },
     { 
       "id" : 76,
-      "married" : true,
+      "married" : "true",
       "name" : "Kevin Brown",
       "son" : "Michael Williams",
       "daughter" : "Betty Thomas"
       },
     { 
       "id" : 77,
-      "married" : false,
+      "married" : "false",
       "name" : "Mark Martinez",
       "son" : "Kevin Martin",
       "daughter" : "Karen Young"
       },
     { 
       "id" : 78,
-      "married" : false,
+      "married" : "false",
       "name" : "John Martin",
       "son" : "Christopher Brown",
       "daughter" : "Sharon Gonzalez"
       },
     { 
       "id" : 79,
-      "married" : true,
+      "married" : "true",
       "name" : "Paul Lopez",
       "son" : "John Lewis",
       "daughter" : "Laura Thomas"
       },
     { 
       "id" : 80,
-      "married" : true,
+      "married" : "true",
       "name" : "Brian Brown",
       "son" : "Richard Miller",
       "daughter" : "Maria Johnson"
       },
     { 
       "id" : 81,
-      "married" : false,
+      "married" : "false",
       "name" : "Daniel Thompson",
       "son" : "Larry Hernandez",
       "daughter" : "Jennifer Thompson"
       },
     { 
       "id" : 82,
-      "married" : false,
+      "married" : "false",
       "name" : "Matthew Lopez",
       "son" : "Jason White",
       "daughter" : "Elizabeth Smith"
       },
     { 
       "id" : 83,
-      "married" : false,
+      "married" : "false",
       "name" : "Eric Williams",
       "son" : "Richard Smith",
       "daughter" : "Carol Smith"
       },
     { 
       "id" : 84,
-      "married" : true,
+      "married" : "true",
       "name" : "Thomas Jones",
       "son" : "Donald Harris",
       "daughter" : "Shirley Lewis"
       },
     { 
       "id" : 85,
-      "married" : false,
+      "married" : "false",
       "name" : "Edward Rodriguez",
       "son" : "Michael Young",
       "daughter" : "Melissa Thomas"
       },
     { 
       "id" : 86,
-      "married" : false,
+      "married" : "false",
       "name" : "William Lee",
       "son" : "Jose Gonzalez",
       "daughter" : "Laura Williams"
       },
     { 
       "id" : 87,
-      "married" : false,
+      "married" : "false",
       "name" : "James Young",
       "son" : "Brian Thomas",
       "daughter" : "Jennifer Moore"
       },
     { 
       "id" : 88,
-      "married" : false,
+      "married" : "false",
       "name" : "George Lopez",
       "son" : "Robert White",
       "daughter" : "Patricia Brown"
       },
     { 
       "id" : 89,
-      "married" : true,
+      "married" : "true",
       "name" : "Daniel Hernandez",
       "son" : "William Lee",
       "daughter" : "Shirley Rodriguez"
       },
     { 
       "id" : 90,
-      "married" : true,
+      "married" : "true",
       "name" : "Gary Garcia",
       "son" : "Joseph Anderson",
       "daughter" : "Laura Miller"
       },
     { 
       "id" : 91,
-      "married" : true,
+      "married" : "true",
       "name" : "Jeffrey Lewis",
       "son" : "William Lopez",
       "daughter" : "Dorothy Moore"
       },
     { 
       "id" : 92,
-      "married" : true,
+      "married" : "true",
       "name" : "Jose Lewis",
       "son" : "Joseph Jones",
       "daughter" : "Ruth Wilson"
       },
     { 
       "id" : 93,
-      "married" : false,
+      "married" : "false",
       "name" : "Jose Lewis",
       "son" : "Kenneth Anderson",
       "daughter" : "Lisa Martin"
       },
     { 
       "id" : 94,
-      "married" : true,
+      "married" : "true",
       "name" : "Steven Lewis",
       "son" : "Frank Young",
       "daughter" : "Susan Anderson"
       },
     { 
       "id" : 95,
-      "married" : false,
+      "married" : "false",
       "name" : "Matthew Smith",
       "son" : "Gary Garcia",
       "daughter" : "Deborah Jackson"
       },
     { 
       "id" : 96,
-      "married" : false,
+      "married" : "false",
       "name" : "Edward Walker",
       "son" : "Timothy Smith",
       "daughter" : "Shirley Rodriguez"
       },
     { 
       "id" : 97,
-      "married" : true,
+      "married" : "true",
       "name" : "Anthony Jones",
       "son" : "Mark Wilson",
       "daughter" : "Angela Smith"
       },
     { 
       "id" : 98,
-      "married" : true,
+      "married" : "true",
       "name" : "Daniel Garcia",
       "son" : "Larry Gonzalez",
       "daughter" : "Linda Martinez"
       },
     { 
       "id" : 99,
-      "married" : false,
+      "married" : "false",
       "name" : "Frank Brown",
       "son" : "Edward Williams",
       "daughter" : "Angela Jackson"
       },
     { 
       "id" : 100,
-      "married" : true,
+      "married" : "true",
       "name" : "Richard Thomas",
       "son" : "Matthew Taylor",
       "daughter" : "Amy Harris"
       },
     { 
       "id" : 101,
-      "married" : true,
+      "married" : "true",
       "name" : "Michael Walker",
       "son" : "James Hernandez",
       "daughter" : "Brenda Wilson"
       },
    { 
       "id" : 102,
-      "married" : false,
+      "married" : "false",
       "name" : "Thomas Walker",
       "son" : "Charles Martinez",
       "daughter" : "Carol Taylor"

@@ -2,14 +2,14 @@
   "fathers" : [ 
     { 
       "id" : 1,
-      "married" : true,
+      "married" : "true",
       "name" : "Charles Young",
       "son" : "Anthony Jackson",
       "daughter" : "Karen Garcia"
       },
     { 
       "id" : 2,
-      "married" : true,
+      "married" : "true",
       "name" : "Jeffrey Moore",
       "son" : "Kenneth Williams",
       "daughter" : "Patricia Rodriguez"

@@ -9,6 +9,7 @@ require 'mongo'
 include Mongo
 
 # puts Gem.loaded_specs["mongo"].version
+
 # Use for local mongo db connection.
 # db = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
 
@@ -17,11 +18,10 @@ db = Mongo::Client.new(['ds037990.mongolab.com:37990'],:database => 'heroku_c0c0
 
 coll = db["fathers"]
 
-tempID = ARGV[0]
-puts tempID
+secID = ARGV[0]
+# puts tempID
 
-findID = tempID.to_i
-
-coll.find("ID" => findID).each do | document |
+coll.find({"Married" => secID}).each do | document |
 	puts document
 end
+
