@@ -15,7 +15,8 @@ include Mongo
 # puts res.class
 
 # Create a new collection fathers.
-db = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
+# db = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
+db = Mongo::Client.new(['ds037990.mongolab.com:37990'],:database => 'heroku_c0c04lxx',:user => 'admin', :password => 'admin');
 
 # db[:test].find(:Married => 'true').each {|document| puts document }
 
