@@ -7,8 +7,8 @@ require 'mongo'
 include Mongo
 
 # puts Gem.loaded_specs["mongo"].version
-# mongo_uri = ENV['MONGOLAB_URI']
-# client = Mongo::Client.new([mongo_uri],:database => 'heroku_c0c04lxx');
+mongo_uri = ENV['MONGOLAB_URI']
+client = Mongo::Client.new(['ds037990.mongolab.com:37990'],:database => 'heroku_c0c04lxx',:user => 'admin', :password => 'admin');
 # client = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
 # db = client.database
 # db.fathers.each{|name| puts name }
@@ -17,23 +17,25 @@ include Mongo
 # puts res.class
 
 # Create a new collection fathers.
-db = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
+# db = Mongo::Client.new(['127.0.0.1:27017'],:database => 'test')
 
 
 
-# file = open("sample1.json")
-# json = file.read
-# documents = JSON.parse(json)
+file = open("sample1.json")
+json = file.read
+documents = JSON.parse(json)
 
 
- # file = File.read("sample1.json")
- #  data_hash = JSON.parse(file)
+ file = File.read("sample1.json")
+  data_hash = JSON.parse(file)
 
- #    for data in data_hash['fathers']
+    for data in data_hash['fathers']
 
- #    	db[:test].insert_one({ID: data['id'], Married: data['married'], Name: data['name'], Son: data['son'], Daughter: data['daughter'] })
+    	db[:test].insert_one({ID: data['id'], Married: data['married'], Name: data['name'], Son: data['son'], Daughter: data['daughter'] })
 
- #  	end
+  	end
+
+puts "Data inserted"
 
  db[:test].find(:Married => 'true').each {|document| puts document }
 # data.each do |data|
