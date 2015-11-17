@@ -1,8 +1,16 @@
+# Refrences: 
+# 1. https://devcenter.heroku.com/articles/heroku-redis
+# 2. http://stackoverflow.com/questions/5410682/parsing-a-json-string-in-ruby
+
 require "redis"
 require "json"
 require 'open-uri'
+
+
+# Use for Heroku Redis
 redis = Redis.new(url: ENV["REDIS_URL"])
 
+# Use for Local Redis
 # redis = Redis.new
 
 data_hash = JSON.parse(open("http://json-generator.appspot.com/api/json/get/bVSYVXYLCa?indent=2").read)
@@ -14,8 +22,3 @@ data_hash = JSON.parse(open("http://json-generator.appspot.com/api/json/get/bVSY
   end
 
 puts "Data inserted!"
-
-# redis.set "foo", [1, 2, 3].to_json
-# value = JSON.parse(redis.get(2))
-# value  = redis.get(2)
-# puts value
