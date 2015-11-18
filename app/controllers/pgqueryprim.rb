@@ -7,7 +7,7 @@ require 'json'
 	host = db_parts[5]
 	db = db_parts[7]
 	con = PGconn.open(:host =>  host, :dbname => db, :user=> username, :password=> password)
-	con = PG.connect
+	# con = PG.connect
 
 	tempID = ARGV[0]	
 
