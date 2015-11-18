@@ -1,8 +1,10 @@
+# Name: Kaustubh Mohgaonkar
+# ID: 1001101770
+# Net ID : kpm1770
+
 # Refrences: 
 # 1. https://devcenter.heroku.com/articles/heroku-redis
 # 2. http://stackoverflow.com/questions/5410682/parsing-a-json-string-in-ruby
-
-
 
 # Script to Create Redis Database and Insert Data.
 
