@@ -3,6 +3,7 @@
 # 2. http://stackoverflow.com/questions/14349318/how-do-i-search-an-array-using-a-partial-string-and-return-the-index
 # 3. http://stackoverflow.com/questions/11209613/redis-finding-hashes-by-field-values
 
+# Script which uses primary key to query database
 
 require "redis"
 require "json"

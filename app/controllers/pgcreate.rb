@@ -2,6 +2,8 @@
 # 1. http://stackoverflow.com/questions/11380438/cant-connect-to-postgresql-database-on-heroku-using-ruby-could-not-translate
 # 2. https://hackhands.com/ruby-read-json-file-hash/
 
+# Script to Create PostGres Database and Insert Data.
+
 require 'pg'
 require 'json'
 require 'open-uri'

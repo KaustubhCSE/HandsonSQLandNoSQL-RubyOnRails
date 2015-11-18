@@ -2,6 +2,10 @@
 # 1. https://devcenter.heroku.com/articles/heroku-redis
 # 2. http://stackoverflow.com/questions/5410682/parsing-a-json-string-in-ruby
 
+
+
+# Script to Create Redis Database and Insert Data.
+
 require "redis"
 require "json"
 require 'open-uri'

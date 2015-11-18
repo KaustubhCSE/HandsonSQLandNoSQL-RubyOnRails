@@ -1,3 +1,9 @@
+#   References: 
+# 1. http://stackoverflow.com/questions/11380438/cant-connect-to-postgresql-database-on-heroku-using-ruby-could-not-translate
+# 2. https://hackhands.com/ruby-read-json-file-hash/
+
+# Script which uses primary key to query database
+
 require 'pg'
 require 'json'
 

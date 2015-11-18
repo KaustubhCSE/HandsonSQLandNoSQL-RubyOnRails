@@ -3,6 +3,8 @@
 # 2. https://docs.mongodb.org/manual/tutorial/getting-started-with-the-mongo-shell/
 # 3. https://github.com/mongodb/mongo-ruby-driver/wiki/Tutorial
 
+# Script which uses primary key to query database
+
 require 'rubygems'
 require 'json'
 require 'mongo'

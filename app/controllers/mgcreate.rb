@@ -3,6 +3,7 @@
 # 2. https://docs.mongodb.org/manual/tutorial/getting-started-with-the-mongo-shell/
 # 3. https://github.com/mongodb/mongo-ruby-driver/wiki/Tutorial
 
+# Script to Create Mongo Database and Insert Data.
 
 require 'rubygems'
 require 'json'
